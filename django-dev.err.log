@@ -1,0 +1,114 @@
+Watching for file changes with StatReloader
+Method Not Allowed: /api/auth/login/
+[13/May/2026 16:18:44] "GET /api/auth/login/ HTTP/1.1" 405 40
+[13/May/2026 16:18:44,571] - Broken pipe from ('127.0.0.1', 59091)
+Unauthorized: /api/auth/login/
+[13/May/2026 16:18:57] "POST /api/auth/login/ HTTP/1.1" 401 63
+[13/May/2026 16:18:57,911] - Broken pipe from ('127.0.0.1', 59101)
+[13/May/2026 16:22:05] "OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+[13/May/2026 16:22:33] "OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+[13/May/2026 16:23:27] "OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+[13/May/2026 16:25:06] "OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+C:\Users\User\Desktop\dipak\backend\teleroot\settings.py changed, reloading.
+Watching for file changes with StatReloader
+[13/May/2026 16:29:38] "OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+[13/May/2026 16:29:38] "OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+[13/May/2026 16:29:46] "POST /api/auth/register/ HTTP/1.1" 201 124
+[13/May/2026 16:29:46,778] - Broken pipe from ('127.0.0.1', 59463)
+[13/May/2026 16:32:33] "OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+[13/May/2026 16:32:34] "POST /api/auth/register/ HTTP/1.1" 201 93
+[13/May/2026 16:32:51] "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+[13/May/2026 16:32:53] "POST /api/auth/login/ HTTP/1.1" 200 598
+[13/May/2026 16:32:59] "POST /api/auth/login/ HTTP/1.1" 200 598
+[13/May/2026 16:33:04] "OPTIONS /api/auth/me/ HTTP/1.1" 200 0
+[13/May/2026 16:33:05] "GET /api/auth/me/ HTTP/1.1" 200 134
+[13/May/2026 16:33:06] "GET /api/auth/me/ HTTP/1.1" 200 134
+C:\Users\User\Desktop\dipak\backend\authentication\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/auth/login/
+[13/May/2026 16:37:16] "POST /api/auth/login/ HTTP/1.1" 400 133
+[13/May/2026 16:37:16,973] - Broken pipe from ('127.0.0.1', 59665)
+Bad Request: /api/auth/register/
+[13/May/2026 16:37:17] "POST /api/auth/register/ HTTP/1.1" 400 121
+[13/May/2026 16:37:17,094] - Broken pipe from ('127.0.0.1', 59666)
+[13/May/2026 16:40:26] "POST /api/auth/login/ HTTP/1.1" 200 598
+[13/May/2026 16:40:30] "GET /api/auth/me/ HTTP/1.1" 200 134
+[13/May/2026 16:40:31] "GET /api/auth/me/ HTTP/1.1" 200 134
+C:\Users\User\Desktop\dipak\backend\authentication\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\dipak\backend\authentication\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\dipak\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\dipak\backend\authentication\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\dipak\backend\teleroot\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\dipak\backend\authentication\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/auth/login/
+[13/May/2026 16:50:14] "POST /api/auth/login/ HTTP/1.1" 401 63
+[13/May/2026 16:50:14,773] - Broken pipe from ('127.0.0.1', 60009)
+[13/May/2026 16:51:10] "POST /api/auth/register/ HTTP/1.1" 201 141
+Unauthorized: /api/auth/login/
+[13/May/2026 16:51:11] "POST /api/auth/login/ HTTP/1.1" 401 44
+[13/May/2026 16:51:11,496] - Broken pipe from ('127.0.0.1', 60024)
+Unauthorized: /api/auth/login/
+[13/May/2026 16:52:56] "POST /api/auth/login/ HTTP/1.1" 401 63
+[13/May/2026 16:53:25] "POST /api/auth/register/ HTTP/1.1" 201 103
+C:\Users\User\Desktop\dipak\backend\teleroot\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\dipak\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\dipak\backend\authentication\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\dipak\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+[13/May/2026 17:03:39] "POST /api/auth/register/ HTTP/1.1" 201 117
+[13/May/2026 17:04:06] "OPTIONS /api/auth/verify-email/ HTTP/1.1" 200 0
+[13/May/2026 17:04:06] "OPTIONS /api/auth/verify-email/ HTTP/1.1" 200 0
+[13/May/2026 17:04:06] "POST /api/auth/verify-email/ HTTP/1.1" 200 62
+[13/May/2026 17:04:06] "POST /api/auth/verify-email/ HTTP/1.1" 200 39
+Unauthorized: /api/auth/login/
+[13/May/2026 17:05:49] "POST /api/auth/login/ HTTP/1.1" 401 63
+Bad Request: /api/auth/register/
+[13/May/2026 17:09:38] "POST /api/auth/register/ HTTP/1.1" 400 107
+Bad Gateway: /api/auth/register/
+[13/May/2026 17:09:54] "POST /api/auth/register/ HTTP/1.1" 502 91
+[13/May/2026 17:11:39] "POST /api/auth/register/ HTTP/1.1" 201 117
+[13/May/2026 17:15:09] "POST /api/auth/register/ HTTP/1.1" 201 117
+[13/May/2026 17:16:43] "OPTIONS /api/auth/verify-email/ HTTP/1.1" 200 0
+[13/May/2026 17:16:43] "OPTIONS /api/auth/verify-email/ HTTP/1.1" 200 0
+[13/May/2026 17:16:44] "POST /api/auth/verify-email/ HTTP/1.1" 200 62
+[13/May/2026 17:16:44] "POST /api/auth/verify-email/ HTTP/1.1" 200 39
+C:\Users\User\Desktop\dipak\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+[13/May/2026 17:53:43] "GET /api/auth/me/ HTTP/1.1" 200 181
+[13/May/2026 17:53:43] "GET /api/auth/me/ HTTP/1.1" 200 181
+[13/May/2026 17:53:43] "GET /api/auth/me/ HTTP/1.1" 200 181
+[13/May/2026 17:53:43] "GET /api/auth/me/ HTTP/1.1" 200 181
+[13/May/2026 17:54:51] "POST /api/auth/register/ HTTP/1.1" 201 117
+[13/May/2026 17:55:16] "POST /api/auth/verify-email/ HTTP/1.1" 200 62
+[13/May/2026 17:55:16] "POST /api/auth/verify-email/ HTTP/1.1" 200 39
+[13/May/2026 17:55:57] "POST /api/auth/login/ HTTP/1.1" 200 633
+[13/May/2026 17:55:58] "GET /api/auth/me/ HTTP/1.1" 200 181
+[13/May/2026 17:55:58] "GET /api/auth/me/ HTTP/1.1" 200 181
+[13/May/2026 17:57:02] "GET /api/auth/me/ HTTP/1.1" 200 181
+[13/May/2026 17:57:02] "GET /api/auth/me/ HTTP/1.1" 200 181
+Bad Gateway: /api/auth/register/
+[13/May/2026 17:58:49] "POST /api/auth/register/ HTTP/1.1" 502 91
+C:\Users\User\Desktop\dipak\backend\teleroot\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Gateway: /api/auth/register/
+[13/May/2026 18:11:28] "POST /api/auth/register/ HTTP/1.1" 502 91
+C:\Users\User\Desktop\dipak\backend\teleroot\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\dipak\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+[13/May/2026 18:58:39] "OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+Bad Gateway: /api/auth/register/
+[13/May/2026 18:58:43] "POST /api/auth/register/ HTTP/1.1" 502 293
+Bad Gateway: /api/auth/register/
+[13/May/2026 19:02:24] "POST /api/auth/register/ HTTP/1.1" 502 293
+Bad Gateway: /api/auth/register/
+[13/May/2026 19:03:18] "POST /api/auth/register/ HTTP/1.1" 502 293
