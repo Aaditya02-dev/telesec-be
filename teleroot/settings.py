@@ -1,4 +1,4 @@
-from decouple import config
+﻿from decouple import config
 from pathlib import Path
 from datetime import timedelta
 
@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -116,7 +116,7 @@ SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
 
-# CORS — allow Next.js frontend
+# CORS â€” allow Next.js frontend
 FRONTEND_URL = config('FRONTEND_URL', default='http://localhost:3000')
 CORS_ALLOWED_ORIGINS = list(dict.fromkeys([
     FRONTEND_URL,
@@ -126,3 +126,4 @@ CORS_ALLOWED_ORIGINS = list(dict.fromkeys([
     'http://127.0.0.1:3001',
 ]))
 CORS_ALLOW_CREDENTIALS = True
+
