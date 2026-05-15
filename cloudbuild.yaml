@@ -16,6 +16,6 @@ steps:
   - '--cpu=1'
   - '--min-instances=0'
   - '--vpc-connector=telesec-connector'
-  - '--set-env-vars=DB_HOST=10.0.0.4,DB_PORT=5432,DB_USER=postgres,DB_PASSWORD=NewStrongPass@123,DB_NAME=telesec,REDIS_HOST=10.0.0.4,REDIS_PORT=6379,NEO4J_URI=neo4j+s://94d8846f.databases.neo4j.io,NEO4J_USER=neo4j,NEO4J_PASSWORD=jtK6NPbNMbW6iE6nRTWamzTK35-hP3cdxiEly5nznw8,INFLUXDB_URL=http://10.0.0.4:8086,INFLUXDB_ORG=telesec-org,INFLUXDB_BUCKET=telemetry,INFLUXDB_TOKEN=Telesec-dev,PUBSUB_PROJECT=telesec-ai'
+  - '--set-env-vars=DB_HOST=10.0.0.4,DB_PORT=5432,DB_USER=postgres,DB_PASSWORD=NewStrongPass@123,DB_NAME=telesec,REDIS_HOST=10.0.0.4,REDIS_PORT=6379,NEO4J_URI=neo4j+s://94d8846f.databases.neo4j.io,NEO4J_USER=neo4j,NEO4J_PASSWORD=jtK6NPbNMbW6iE6nRTWamzTK35-hP3cdxiEly5nznw8,INFLUXDB_URL=http://10.0.0.4:8086,INFLUXDB_ORG=telesec-org,INFLUXDB_BUCKET=telemetry,INFLUXDB_TOKEN=PCUv3nb9vjUnhTjsiSGpYJvo_yCNa6_SRu7FGlyG4FDx9-rK8QJbyThRd0_C9zBGOsuevsSYBotfHhQ--aHRhg==,PUBSUB_PROJECT=telesec-ai'
 options:
   logging: CLOUD_LOGGING_ONLY
