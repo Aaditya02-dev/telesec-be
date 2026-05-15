@@ -116,7 +116,7 @@ SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
 
-# CORS â€” allow Next.js frontend
+# CORS — allow Next.js frontend
 FRONTEND_URL = config('FRONTEND_URL', default='http://localhost:3000')
 CORS_ALLOWED_ORIGINS = list(dict.fromkeys([
     FRONTEND_URL,
@@ -125,5 +125,13 @@ CORS_ALLOWED_ORIGINS = list(dict.fromkeys([
     'http://localhost:3001',
     'http://127.0.0.1:3001',
 ]))
+CORS_ALLOWED_ORIGINS.append("https://telesec-backend-kkylnubjxq-uc.a.run.app")
+CORS_ALLOWED_ORIGINS = list(dict.fromkeys(CORS_ALLOWED_ORIGINS))
 CORS_ALLOW_CREDENTIALS = True
+
+# CSRF Trusted Origins — allow Cloud Run domain
+CSRF_TRUSTED_ORIGINS = [
+    "https://telesec-backend-kkylnubjxq-uc.a.run.app",
+    "https://telesec-frontend-kkylnubjxq-uc.a.run.app",
+]
 
